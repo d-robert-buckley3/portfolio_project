@@ -10,8 +10,9 @@ img, svg {
 }
 
 body {
-  /*font-family: Roboto;*/
-  font-family: Ubuntu, sans-serif;
+  /* font-family: Roboto; */
+  /* font-family: Ubuntu, sans-serif; */
+  font-family: Comfortaa, sans-serif;
 }
 
 /* sub-header */
@@ -26,6 +27,7 @@ header p {
   height: 300px;
   display: block;
   overflow: hidden;
+  margin: 30px;
 }
 
 svg {
@@ -36,22 +38,26 @@ svg {
   text-align: left;
   float: left;
   margin-right: 2%;
+  width: 15%;
 }
 
 .main-header {
-  padding: 30px;
+  /* padding: 30px; */
+  margin: 30px;
+  overflow: auto;
 }
 
 .main-title {
   float: right;
   margin-left: 2%;
   text-align: right;
-  font-size: 3em;
+  font-size: 2em;
+  width: 75%%;
 }
 
 .horz-bar {
   background-color: #888;
   height: 5px;
   clear: both;
-  margin: 10px;
+  margin: 30px;
 }
