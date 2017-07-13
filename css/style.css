@@ -26,3 +26,17 @@ body {
 .title-logo {
   margin-top: 30px;
 }
+
+.text-apps {
+  font-weight: 400;
+}
+
+.text-app-name {
+  font-size: 40px;
+}
+
+
+hr {
+  border-color: #7d97ad;
+  border-width: 5px 0;
+}
