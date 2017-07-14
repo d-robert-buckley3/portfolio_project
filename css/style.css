@@ -35,6 +35,10 @@ body {
   font-size: 40px;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 
 hr {
   border-color: #7d97ad;
