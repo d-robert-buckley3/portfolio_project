@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -39,7 +39,7 @@
     </div>
     <div class="row text-center text-apps">
       <div class="col-md-4">
-        <img class="img-responsive center-block" src="http://lorempixel.com/400/300/technics" alt="Appify image" />
+        <img class="img-responsive center-block" src="http://lorempixel.com/400/300/technics" alt="Appify image" data-toggle="modal" data-target="#appify" />
         <h3 class="text-uppercase text-app-name">Appify</h3>
         <p>
           http://github.com/udacity/appify
@@ -58,6 +58,23 @@
         <p>
           http://github.com/udacity/bokeh
         </p>
+      </div>
+    </div>
+  </div>
+  <!-- Appify Modal -->
+  <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-uppercase text-app-name" id="myModalLabel">Appify</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://lorempixel.com/400/300/technics">
+          This was my first project in this class. I learned a lot about HTML and CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
