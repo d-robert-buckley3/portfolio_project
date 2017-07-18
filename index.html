@@ -14,13 +14,15 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 title-logo">
-        <img class="img-responsive" src="img/udacity-logo-blue.png" alt="Udacity logo" />
-      </div>
-      <div class="col-md-6 text-right text-uppercase">
-        <h1 class="text-title text-thin">Jane Doette</h1>
-        <h4>Front-end Ninja</h4>
-      </div>
+      <header>
+        <div class="col-md-6 title-logo">
+          <img class="img-responsive" src="img/udacity-logo-blue.png" alt="Udacity logo" />
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-title text-thin">Jane Doette</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </header>
     </div>
     <div class="row">
       <div class="col-md-12">
@@ -28,38 +30,54 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <img class="img-responsive" src="http://lorempixel.com/1200/400/nature" alt="Main splash image"/>
-      </div>
+      <section class="splash-image">
+        <div class="col-md-12">
+          <img class="img-responsive" src="http://lorempixel.com/1200/400/nature" alt="Main splash image"/>
+        </div>
+      </section>
     </div>
-    <div class="row">
-      <div class="col-md-12 text-muted">
-        <h2>Featured Work</h2>
+    <section class="sample-works">
+      <div class="row">
+        <div class="col-md-12 text-muted">
+          <h2>Featured Work</h2>
+        </div>
       </div>
-    </div>
-    <div class="row text-center text-apps">
-      <div class="col-md-4">
-        <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/technics" alt="Appify image" data-toggle="modal" data-target="#appify" />
-        <h3 class="text-uppercase text-app-name">Appify</h3>
-        <p>
-          http://github.com/udacity/appify
-        </p>
+      <div class="row text-center text-apps">
+        <div class="col-md-4">
+          <article>
+            <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/technics" alt="Appify image" data-toggle="modal" data-target="#appify" />
+            <header>
+              <h3 class="text-uppercase text-app-name">Appify</h3>
+            </header>
+            <p>
+              http://github.com/udacity/appify
+            </p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article>
+            <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/nature" alt="Sunflower image" data-toggle="modal" data-target="#sunflower" />
+            <header>
+              <h3 class="text-uppercase text-app-name">Sunflower</h3>
+            </header>
+            <p>
+              http://github.com/udacity/sunflower
+            </p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article>
+            <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/city" alt="Bokeh image" data-toggle="modal" data-target="#bokeh" />
+            <header>
+              <h3 class="text-uppercase text-app-name">Bokeh</h3>
+            </header>
+            <p>
+              http://github.com/udacity/bokeh
+            </p>
+          </article>
+        </div>
       </div>
-      <div class="col-md-4">
-        <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/nature" alt="Sunflower image" data-toggle="modal" data-target="#sunflower" />
-        <h3 class="text-uppercase text-app-name">Sunflower</h3>
-        <p>
-          http://github.com/udacity/sunflower
-        </p>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive center-block clickable" src="http://lorempixel.com/400/300/city" alt="Bokeh image" data-toggle="modal" data-target="#bokeh" />
-        <h3 class="text-uppercase text-app-name">Bokeh</h3>
-        <p>
-          http://github.com/udacity/bokeh
-        </p>
-      </div>
-    </div>
+    </section>
   </div>
   <!-- Appify Modal -->
   <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
